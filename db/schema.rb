@@ -19,6 +19,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_01_14_051418) do
     t.string "status"
   end
 
+  
   create_table "comments", charset: "utf8mb3", force: :cascade do |t|
     t.string "commenter"
     t.text "body"
